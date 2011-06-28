@@ -50,6 +50,21 @@ See http://www.chromium.org/developers/how-tos/chrome-frame-getting-started
       app.use(chromeframe(7));
     });
     
+### Activate Chrome Frame for Specific Routes
+
+    var express = require('express'),
+        chromeframe = require('express-chromeframe');
+    
+    var app = express.createServer();
+    
+    app.get('/', chromeframe(), function(req, res){
+      res.send('I want to render with chrome!');
+    });
+    
+    app.get('/', function(req, res){
+      res.send('I want to render with the original user agent!');
+    });
+
 ## License
 
 Copyright (C) 2011 by Michael Hemesath <mike.hemesath@gmail.com>
