@@ -14,6 +14,8 @@
       
       app.listen(3000);
       
+See http://www.chromium.org/developers/how-tos/chrome-frame-getting-started
+      
 ## Installation
 
     $ npm install express-chromeframe
