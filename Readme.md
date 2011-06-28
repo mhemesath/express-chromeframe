@@ -20,13 +20,16 @@
     
 ## Features
 
-    * Defaults to enable chromeframe for ALL versions of Internet Explorer
-    * Includes IE=Edge configuration
-    * Configurable to target specific versions of Internet Explorer
+  * Defaults to enable chromeframe for ALL versions of Internet Explorer
+  * Includes IE=Edge configuration
+  * Configurable to target specific versions of Internet Explorer
     
 ## Examples
 
 ### Target All Versions of Internet Explorer
+
+    var express = require('express'),
+        chromeframe = require('express-chromeframe');
 
     var app = express.createServer();
     
@@ -35,6 +38,9 @@
     });
     
 ### Target Internet Explorer 7 and Lower
+    
+    var express = require('express'),
+        chromeframe = require('express-chromeframe');
 
     var app = express.createServer();
     
