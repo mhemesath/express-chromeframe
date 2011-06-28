@@ -57,11 +57,11 @@ See http://www.chromium.org/developers/how-tos/chrome-frame-getting-started
     
     var app = express.createServer();
     
-    app.get('/', chromeframe(), function(req, res){
+    app.get('/foo', chromeframe(), function(req, res){
       res.send('I want to render with chrome!');
     });
     
-    app.get('/', function(req, res){
+    app.get('/bar', function(req, res){
       res.send('I want to render with the original user agent!');
     });
 
