@@ -1,4 +1,4 @@
-/*!
+/**
  * express-chromeframe - middleware
  * Copyright(c) 2010 Michael Hemesath <mike.hemesath@gmail.com>
  * MIT Licensed
