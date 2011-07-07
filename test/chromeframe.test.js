@@ -29,10 +29,10 @@ module.exports = {
   },
 
   'test configured version': function(){
-    assert.response(create(7), 
+    assert.response(create("IE7"), 
       { url: '/' }, 
       function(res){
-        res.header('X-UA-Compatible').should.equal('IE=Edge,chrome=7');
+        res.header('X-UA-Compatible').should.equal('IE=Edge,chrome=IE7');
     });
   }
 };

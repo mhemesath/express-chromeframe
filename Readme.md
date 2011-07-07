@@ -47,7 +47,7 @@ See http://www.chromium.org/developers/how-tos/chrome-frame-getting-started
     var app = express.createServer();
     
     app.configure(function() {
-      app.use(chromeframe(7));
+      app.use(chromeframe("IE7"));
     });
     
 ### Activate Chrome Frame for Specific Routes
