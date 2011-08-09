@@ -3,7 +3,7 @@
   "description": "Dead simple middleware to enable chromeframe on connect/express applications.",
   "version": "0.1.0",
   "author": "Mike Hemesath <mike.hemesath@gmail.com>",
-  "keywords": ["chrome", "chromeframe", "middleware", "express", "connect"],
+  "keywords": ["chrome", "chromeframe", "chrome-frame", "gcf", "middleware", "express", "connect"],
   "main": "index",
   "engines": { "node": ">= 0.4.0" },
   "devDependencies": {
