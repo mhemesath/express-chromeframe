@@ -12,7 +12,7 @@
  */
 module.exports = function(version) {
   return function(req, res, next){
-    res.header('X-UA-Compatible','IE=Edge,chrome=' + (version || 1));
+    res.setHeader('X-UA-Compatible','IE=Edge,chrome=' + (version || 1));
     next();
   }
 }
