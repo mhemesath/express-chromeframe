@@ -12,7 +12,7 @@
         res.send('I want to render with chrome!');
       });
       
-      app.listen(3000);
+      app.listen(3000); 
       
 See http://www.chromium.org/developers/how-tos/chrome-frame-getting-started
 
