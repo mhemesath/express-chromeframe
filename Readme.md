@@ -1,6 +1,6 @@
 # Express ChromeFrame
 
-  Dead simple middleware to enable chrome frame on connect/express applications.
+  Simple middleware to enable chrome frame on connect/express applications.
   
       var app = express.createServer();
       
