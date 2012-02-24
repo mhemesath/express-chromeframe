@@ -15,14 +15,7 @@
       app.listen(3000); 
       
 See http://www.chromium.org/developers/how-tos/chrome-frame-getting-started
-
-## IMPORTANT: Before You Get Started
-
-If the application uses connect session middleware, be sure to change the default fingerprint function to return a string that is NOT based off the user agent string.
-Chrome frame is known to manipulate the user agent String across requests, which will cause users to lose their session if their session token is generated using the default fingerprint function.
-    
-See https://github.com/senchalabs/connect/issues/305 
-      
+   
 ## Installation
 
     $ npm install express-chromeframe
